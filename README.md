@@ -25,7 +25,7 @@ Flexbox
 
 Created folders for repo
 
-HTML is completed for one wirframe
+HTML is completed for one wireframe
 
 CSS in the works
 
