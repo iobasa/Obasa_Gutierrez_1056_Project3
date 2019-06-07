@@ -21,7 +21,7 @@ Wireframe finished and symantic tagging started
 PSD file completed
 
 Wireframe scaffold, HTML and CSS symantic tagging
-Flexbox 
+Flexbox
 
 HTML is completed for one wireframe
 
