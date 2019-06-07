@@ -23,8 +23,6 @@ PSD file completed
 Wireframe scaffold, HTML and CSS symantic tagging
 Flexbox
 
-Created folders for repo
-
 HTML is completed for one wireframe
 
 CSS in the works
