@@ -153,12 +153,14 @@ main {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	margin: 100px auto;
 }
 
-.supporters .icon {
+.icon {
 	width: 150px;
 	height: 150px;
 	background-color: #555555;
+	margin: 0 auto 60px auto;
 }
 
 #buttons {
