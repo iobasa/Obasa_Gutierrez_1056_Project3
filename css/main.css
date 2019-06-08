@@ -137,8 +137,123 @@ main {
 }
 
 .member {
-
-	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
+.support-title {
+	width: 370px;
+	height: 60px;
+	background-color: #252525;
+	margin: 34px auto 27px auto;
+}
 
+.supporters {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.supporters .icon {
+	width: 150px;
+	height: 150px;
+	background-color: #555555;
+}
+
+#buttons {
+	height: 130px;
+	background-color: #555555
+}
+
+.press {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.press-button1 {
+	width: 300px;
+	height: 70px;
+	background-color: #111111;
+	margin: 28px auto 35px auto;
+}
+
+.press-button2 {
+	width: 300px;
+	height: 70px;
+	background-color: #111111;
+	margin: 28px auto 35px auto;
+}
+
+/* STARTING FOOTER */
+
+.main-footer {
+	display: flex;
+	flex-direction: row;
+	height: 398px;
+	background-color: #363636;
+}
+
+.footer-container {
+	margin-left: 140px;
+}
+
+.footer-left-top {
+	display: flex;
+	flex-direction: row;
+}
+
+.footer-logo {
+	width: 200px;
+	height: 177px;
+	background-color: #999999;
+	margin-top: 54px;
+}
+
+.footer-icon {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 70px;
+	margin-top: 170px;
+}
+
+.social-icon {
+	width: 60px;
+	height: 60px;
+	background-color: #636363;
+	margin-left: 25px;
+}
+
+.footer-left-bottom {
+	display: flex;
+	flex-direction: row;
+}
+
+.navi {
+	width: 700px;
+	height: 60px;
+	background-color: #bfbfbf;
+	margin-top: 60px;
+}
+
+.footer-right {
+	display: flex;
+	flex-direction: column;
+	margin-right: 115px; 
+}
+
+.address {
+	width: 300px;
+	height: 100px;
+	background-color: #000000;
+	margin-top: 44px;
+}
+
+.mail {
+	width: 300px;
+	height: 100px;
+	background-color: #000000;
+	margin-top: 35px;
+}
