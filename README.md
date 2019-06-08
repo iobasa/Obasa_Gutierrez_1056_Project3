@@ -26,5 +26,5 @@ Flexbox
 HTML is completed for one wireframe
 
 CSS in the works
-
+Flexbox footer is what is left
 
