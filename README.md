@@ -27,3 +27,5 @@ Wireframe scaffold, HTML and CSS symantic tagging
 Flexbox
 
 Complete HTML and css
+
+* Updated copyright <div> tag
