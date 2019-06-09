@@ -1,0 +1,632 @@
+body {
+  margin: 0 auto;
+  background-color: white;
+  width: 1280px;
+	font-family: "Oswald", sans-serif;
+	font-size: 40px;
+}
+
+.hidden
+{
+  display: none;
+}
+
+
+#mainHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+#logo {
+	background-color: #999999;
+  width: 200px;
+  margin-top: 20px;
+}
+
+#logo h3 {
+	color: white;
+	text-align: center;
+}
+
+#mainNav
+{
+  width: 741px;
+	height: 60px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: #999999;
+}
+
+#mainNav h3 {
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+#Sponsors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #999999;
+}
+
+#SponsorTitle h3 {
+  margin-top: 50px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 40px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#SponsorLogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#SponsorLogo img {
+  width: 150px;
+	height: 150px;
+	background-color: #555555;
+
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.mainFooter
+{
+  display: flex;
+  flex-direction: row;
+  background-color: #363636;
+  justify-content: flex-start;
+  height: 400px;
+}
+
+.logoNav
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+}
+
+.bottomLogo {
+	width: 200px;
+	height: 200px;
+	color: white;
+	background-color: #999999;
+}
+
+.logoFooter
+{
+  margin-top: 70px;
+  margin-left: 120px;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+.footerNav
+{
+	margin-left: 120px;
+	font-family: "Oswald", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 20px;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	width: 741px;
+	height: 60px;
+	color: white;
+	background-color: #bfbfbf;
+}
+
+.socialMedia
+{
+  height: 60px;
+	margin-left: 70px;
+  margin-top: 130px;
+	display: flex;
+	flex-direction: row;
+}
+
+.socialMedia h3 {
+	width: 60px;
+	height: 60px;
+	margin: 10px;
+	background-color: #636363;
+}
+
+.mail{
+  font-weight: 400;
+  font-style: black;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+	float: right;
+  margin-top: 70px;
+  margin-right: 10px;
+}
+
+#address {
+	width: 300px;
+	height: 100px;
+  display: flex;
+  flex-direction: row;
+	background-color: black;
+  color: white;
+}
+
+#address p{
+	margin-top: 10px;
+	line-height: 20px;
+	font-size: 24px;
+}
+
+#m-address {
+	margin-top: 38px;
+	width: 300px;
+	height: 100px;
+  display: flex;
+  flex-direction: row;
+	background-color: black;
+  color: white;
+}
+
+
+/*------Main Page----*/
+
+
+#hero {
+  margin-top: 20px;
+	background-color: #e8e8e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+}
+
+.heroText {
+  width: 675px;
+  height: 335px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 300px;
+  position: absolute;
+  top: 250px;
+  z-index: +1;
+}
+
+.heroText h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-style: black;
+  font-size: 70px;
+  text-align: center;
+	color: grey ;
+}
+
+.heroText h2 {
+  font-size: 40px;
+  text-align: center;
+	color: grey;
+  margin-bottom: 50px;
+}
+
+#money {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 260px;
+  position: absolute;
+  top: 600px;
+  z-index: +1;
+  text-align: center;
+	color: black;
+}
+
+#membership {
+  font-style: normal;
+  text-align: center;
+  width: 330px;
+  height: 240px;
+  margin-right: 110px;
+  background-color: #999999;
+}
+
+#membership h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  font-weight: 700;
+	margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+#membership p {
+	font-family: "Oswald", sans-serif;
+  font-weight: 200;
+	font-size: 20px;
+	margin-top: 30px;
+  line-height: 20px;
+}
+
+#membership a {
+	margin-top: 0;
+	font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+#fundraising {
+  font-style: normal;
+  text-align: center;
+  width: 330px;
+  height: 240px;
+  background-color: #999999;
+  text-align: center;
+}
+
+#fundraising h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+#fundraising p {
+	font-family: "Oswald", sans-serif;
+  font-weight: 200;
+	font-size: 20px;
+  line-height: 20px;
+}
+
+#fundraising a {
+	font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+#Few {
+  margin-top: 200px;
+  margin-bottom: 97px;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  width: 1280px;
+  height: 600px;
+  background-color: #ebebeb;
+}
+
+#Few img{
+  width: 640px;
+  height: 600px;
+	background-color: #999999;
+}
+
+#Few h3 {
+	margin-top: 30px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+	color: grey;
+}
+
+#border {
+  margin-top: 20px;
+  width: 60px;
+  height: 2px;
+}
+
+#Few p {
+  line-height: 30px;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 20px;
+	color: grey;
+}
+
+#Few a{
+  text-decoration: none;
+  color: black;
+}
+
+#fewText {
+  margin-left: 50px;
+  width: 500px;
+  height: 500px;
+	color: grey;
+}
+
+.latestNews {
+  margin-top: 97px;
+}
+
+.latestNews h1{
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+}
+
+#Events{
+  margin-top: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#Hatchery {
+	display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+	width: 400px;
+	height: 520px;
+	background-color: #999999;
+}
+
+#Hatchery img {
+  width: 400px;
+  height: 300px;
+	background-color: grey;
+}
+
+#Htext {
+  width: 400px;
+  height: 220px;
+  line-height: 28.79px;
+}
+
+#Htext a{
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+#Hatchery h3 {
+  margin-top: 20px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#Hatchery h4 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#Hatchery p {
+  font-weight: 400;
+  font-size: 15.35px;
+}
+
+#Children {
+	display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+	width: 400px;
+	height: 520px;
+	background-color: #999999;
+}
+
+#Children img{
+  width: 400px;
+  height: 300px;
+	background-color: grey;
+}
+
+#Ctext {
+  width: 400px;
+  height: 220px;
+  line-height: 28.79px;
+	background-color: #999999;
+}
+
+#Ctext a{
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+#Children h3 {
+  margin-top: 20px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#Children h4 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#Children p {
+  font-weight: 400;
+  font-size: 15.35px;
+}
+
+#General {
+	display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+	width: 400px;
+	height: 520px;
+	background-color: #999999;
+}
+
+#General img{
+  width: 400px;
+  height: 300px;
+	background-color: grey;
+}
+
+#Gtext {
+  width: 400px;
+  height: 220px;
+  line-height: 28.79px;
+	background-color: #999999;
+}
+
+#Gtext a{
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+#General h3 {
+  margin-top: 20px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#General h4 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#General p {
+  font-weight: 400;
+  font-size: 15.35px;
+}
+
+.CProject {
+  margin-top: 90px;
+  margin-bottom: 60px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.CProject h1 {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#btn a {
+	margin-top: 70px;
+	font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  background-color: grey;
+}
+
+.CPro {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+	margin-bottom: 70px;
+}
+
+#Salm {
+  width: 360px;
+  height: 360px;
+	background-color: #999999;
+}
+
+#Stext {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 50px;
+  margin-left: 100px;
+  color: white;
+  position: absolute;
+  top: 3030px;
+  z-index: +1;
+}
+
+#Stext a{
+	font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding:10px;
+  background-color: grey;
+}
+
+#PAr {
+  width: 360px;
+  height: 360px;
+	background-color: #999999;
+}
+
+#Ptext {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 70px;
+  color: white;
+  position: absolute;
+  margin-left: 570px;
+  padding-bottom: 70px;
+  text-align: center;
+  top: 3030px;
+  z-index: +1;
+}
+
+#Ptext a{
+	font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding:10px;
+  margin-top: 70px;
+  background-color: grey;
+}
+
+#TrHat {
+  width: 360px;
+  height: 360px;
+	background-color: #999999;
+}
+
+#Trtext {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 50px;
+  margin-left: 980px;
+  color: white;
+  position: absolute;
+  top: 3030px;
+  z-index: +1;
+}
+
+#Trtext a{
+	font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding:10px;
+  background-color: grey;
+}
